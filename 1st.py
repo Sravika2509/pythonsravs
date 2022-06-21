@@ -1,5 +1,5 @@
 import os
-x=int(input("Enter int: "))
+x=os.getenv("x")
 print("entered int is"+ str(x))
 print("hello")
 l=[1,2,3]
